@@ -1,0 +1,18 @@
+
+<template>
+	<div>
+		<my-products></my-products>
+	</div>
+</template>
+
+
+
+<script>
+	import Products from './product/Products.vue';
+
+	export default {
+		components: {
+			myProducts: Products,
+		},
+	}
+</script>
